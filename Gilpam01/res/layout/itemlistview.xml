@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#489438" >
+    <ImageView 
+        android:id="@+id/itemimageid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+     
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ItemName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#003366" />
+        <TextView
+            android:id="@+id/itemcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ItemCode" />
+        <TextView
+            android:id="@+id/itemuom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UOM"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Qty"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <CheckBox
+	            android:id="@+id/addcart"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Add2Cart"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:focusable="false"
+                android:focusableInTouchMode="false" />
+            </LinearLayout>
+
+     </LinearLayout>
+     <ImageView
+         android:id="@+id/inrimgid"
+         android:layout_width="24dp"
+         android:layout_height="24dp"
+         android:src="@drawable/inr" />
+     <TextView
+            android:id="@+id/itemprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23.00"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

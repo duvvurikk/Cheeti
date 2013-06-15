@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#489438"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="200sp"
+        android:src="@drawable/g03"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login with you Facebook account"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingTop="20sp"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10sp"
+        android:src="@drawable/login_button" />
+"
+        
+</LinearLayout>
